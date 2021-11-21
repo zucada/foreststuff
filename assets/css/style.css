@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/assets/images/bg-forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: bottom;
+}
+
+.sapito {
+    width: 300px;
+    cursor: pointer;
+}
+
+.vaquita {
+    width: 300px;
+    cursor: pointer;
+}
+
+.cobrita {
+    width: 300px;
+    cursor: pointer;
+}
+
+.box-content {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
